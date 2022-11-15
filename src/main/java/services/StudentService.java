@@ -11,10 +11,10 @@ import java.util.Optional;
 public class StudentService {
 
     static List<Student> students = Arrays.asList(
-            new Student("1", "Mirko", "Di Cristina", "mirko7726@gmail.com"),
-            new Student("2", "Mario", "Cotumaccio", "marioilpiùforte@gmail.com"),
-            new Student("3", "Lorenzo", "Catania", "tutorpiùforte@gmail.com"),
-            new Student("4", "Carlo", "Carli", "hofinitoleidee@gmail.com")
+            new Student("1", "Mario", "Cotumaccio", "mariocotumaccio1@gmail.com"),
+            new Student("2", "Mirko", "Di Cristina", "supermirkoplus8000@gmail.com"),
+            new Student("3", "Antonio", "Primol", "borsettadigucci@gmail.com"),
+            new Student("4", "fenna", "Mercalli", "2kkgarenspin@gmail.com")
     );
 
     public Student getStudentById(String studentId) {

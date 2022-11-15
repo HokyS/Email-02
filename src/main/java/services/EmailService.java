@@ -20,9 +20,9 @@ public class EmailService {
         MimeMessageHelper helper = new MimeMessageHelper(message, true);
         helper.setTo(email);
         helper.setSubject(title);
-        helper.setText("<h1>Test Hello</h1> <h2>Testing description by Mirko</h2> <h3>" + text + "</h3>" + "<img src='cid:img' width=600>", true);
-        ClassPathResource image = new ClassPathResource("img.png");
-        helper.addInline("img", image);
+        helper.setText("<h1>Test Hello</h1> <h2>super mirko plus</h2> <h3>" + text + "</h3>" + "<img src='cid:images' width=600>", true);
+        ClassPathResource image = new ClassPathResource("images.png");
+        helper.addInline("images", image);
         javaMailSender.send(message);
     }
 }
